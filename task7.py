@@ -1,8 +1,8 @@
-def fah_cel(num):
+def fahrenheit_to_celsius(num):
     return (num - 32) * 5/9
-def cel_fah(num):
+def celsius_to_fahrenheit(num):
     return num * (9/5) + 32
 
 #test
-print(cel_fah(-10))
-print(fah_cel(14))
+print(celsius_to_fahrenheit(-10))
+print(fahrenheit_to_celsius(14))
